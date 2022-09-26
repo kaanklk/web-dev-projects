@@ -30,6 +30,7 @@ a {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    display: none;
 }
 
 .menu-btn span {
@@ -136,6 +137,10 @@ main h1 {
   padding: 1rem;
 }
 
+.food-item h2 {
+    margin: 0 0 1rem 0;
+}
+
 .btn {
   background-color: rgb(228, 157, 44);
   color: white;
@@ -158,5 +163,9 @@ main h1 {
 
   #latest-products ul {
     grid-template-columns: 1fr;
+  }
+
+  .menu-btn {
+    display: flex;
   }
 }
